@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Phim - Tìm kiếm</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <!-- Bootstrap 5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Maven+Pro:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Maven+Pro:wght@400;500;600&family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Maven+Pro:wght@400;500;600&family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- main -->
+    <div id="main">
+        <!-- Begin: header -->
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="d-lg-block d-md-none d-sm-none d-none col-lg-2 social-list">
+                        <div class="d-flex justify-content-center align-items-center gap-4 h-100">
+                            <a href="https://www.facebook.com/TOPreviewphimchieurap/">
+                                <i class="ti-facebook icons text-black"></i>
+                            </a>
+                            <a href="https://bit.ly/3UgEqbb">
+                                <i class="ti-google icons text-black"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ghienreview/?hl=vi">
+                                <i class="ti-instagram icons text-black"></i>
+                            </a>
+                            <a href="https://github.com/">
+                                <i class="ti-github icons text-black"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-lg-block d-md-none d-sm-none d-none col-lg-8 container-fluid">
+                        <ul class="nav justify-content-center main-nav h-100">
+                            <li class="nav-item d-flex align-items-center"><a class="nav-link" href="./index.html">Trang
+                                    chủ</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" href="#">Thể loại phim</a>
+                                <ul id="js-category" class="dropdown-menu sub-nav">
+                                    <!-- TODO -->
+                                </ul>
+                            </li>
+                            <li class="nav-item d-flex align-items-center"><a class="nav-link" href="./about.html">Về
+                                    chúng tôi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- navigation bar -->
+                    <div class="d-lg-none d-md-block d-sm-block col-md-4 col-sm-4 col-4 navbar-btn">
+                        <button data-bs-toggle="offcanvas" data-bs-target="#mobile"><i class="ti-menu-alt"></i></button>
+                    </div>
+                    <div class="d-block col-lg-2 col-md-8 col-sm-8 col-8">
+                        <div class="d-flex h-100 justify-content-end align-items-center">
+                            <a href="./search.html" class="btn" style="color: #626262;"><i class="ti-search"></i></a>
+                        </div>
+                    </div>
+                    <!-- navigation on mobile & tablet -->
+                    <div class="offcanvas offcanvas-start" id="mobile">
+                        <div class="offcanvas-header">
+                            <div class="d-flex gap-4 justify-content-center align-items-center">
+                                <a class="text-black" href="https://www.facebook.com/TOPreviewphimchieurap/">
+                                    <i class="ti-facebook icons"></i>
+                                </a>
+                                <a class="text-black" href="https://bit.ly/3UgEqbb">
+                                    <i class="ti-google icons"></i>
+                                </a>
+                                <a class="text-black" href="https://www.instagram.com/ghienreview/?hl=vi">
+                                    <i class="ti-instagram icons"></i>
+                                </a>
+                                <a class="text-black" href="https://github.com/">
+                                    <i class="ti-github icons"></i>
+                                </a>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="navbar">
+                                <div class="container-fluid">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="./index.html">Trang chủ</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown">Thể loại phim</a>
+                                            <ul id="js-category-mobile" class="dropdown-menu">
+                                                <!-- TODO -->
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="./about.html">Về chúng tôi</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center p-5 m-5">
+                <a class="w-25" href="./index.html"><img class="img-fluid" src="./assets/img/Logo.jpg" alt="logo"></a>
+            </div>
+        </div>
+        <!-- End: header -->
+        <div class="line mt-5"></div>
+        <!-- Begin: content -->
+        <div class="container">
+            <div class="m-4 p-2">
+                <input type="text" autofocus placeholder="Tìm kiếm..." id="js-search-box"
+                    class="p-3 mt-3 mb-3 rounded-3 w-100">
+            </div>
+            <div class="row search-list" id="js-search-list">
+                <!-- TODO -->
+            </div>
+        </div>
+        <!-- End: content -->
+        <div class="line"></div>
+        <!-- Begin: footer -->
+        <div id="footer">
+            <div class="container-fluid bg-danger text-white">
+                <div class="row row-cols-3">
+                    <div class="col text-center mt-4">
+                        <h4 class="text-uppercase mb-4">Liên hệ</h4>
+                        <img src="./assets/img/Logo.jpg" alt="" class="img-fluid w-25 rounded-3 mb-3">
+                        <p>Hotline: 077 487 1962</p>
+                        <p>Email: group3review@gmail.com</p>
+                        <p>Địa chỉ: 141 Điện Biên Phủ, Phường 15, Quận Bình Thạnh, TP. HCM</p>
+                    </div>
+                    <div class="col text-center mt-4">
+                        <h4 class="text-uppercase mb-4">Giới Thiệu</h4>
+                        <p class="m-auto w-75">Group-3 Review là một website được thành lập chủ yếu do các sinh viên năm 3 của trường Đại học Kinh tế Tài chính TP. HCM. Group hi vọng thông qua website có thể cung cấp đến mọi người những thông tin mới nhất và quan trọng nhất về những bộ phim hot và đình đám của Việt Nam, qua đó góp phần tuyên truyền sự tuyệt vời của nghệ thuật Việt Nam. 
+                    </div>
+                    <div class="col text-center mt-4">
+                        <h4 class="text-uppercase mb-4">Ủng hộ</h4>
+                        <img src="./assets/img/UngHo.jpg" alt="Ủng hộ" class="img-thumbnail w-50">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: footer -->
+    </div>
+    <!-- js -->
+    <script src="./assets/javascript/database.js"></script>
+    <script src="./assets/javascript/script.js"></script>
+    <script src="./assets/javascript/index.js"></script>
+</body>
+
+</html>
