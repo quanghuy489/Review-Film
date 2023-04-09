@@ -97,8 +97,8 @@ const actors = [
     birthday: "5 tháng 4, 1991",
     date_of_death: null,
     featured_movie: `Gạo nếp gạo tẻ, Cây táo nở hoa, Gia đình phép thuật, ...`,
-    job: "Giải Mai Vàng, Vietnam Entertainment Awards, Á khôi 1 - Hoa khôi Trang sức Việt Nam 2009, Top 20 - Hoa hậu Việt Nam 2010 và Top 20 - Nữ hoàng Du lịch Quốc tế 2011",
-    prize: "",
+    job: "Á hoàng, người mẫu, diễn viên, MC",
+    prize: "Giải Mai Vàng, Vietnam Entertainment Awards, Á khôi 1 - Hoa khôi Trang sức Việt Nam 2009, Top 20 - Hoa hậu Việt Nam 2010 và Top 20 - Nữ hoàng Du lịch Quốc tế 2011",
     biography: `
             <br> Năm 2009, Thúy Ngân giành danh hiệu Á hoàng 1 cuộc thi Nữ hoàng Trang sức Việt Nam. Sau đó, cô nộp hồ sơ ghi danh tại cuộc thi Hoa hậu Thế giới người Việt 2010 nhưng đến phút chót cô lại đổi ý và đăng ký thi Hoa hậu Việt Nam 2010. Ở cuộc thi, cô góp mặt trong Top 20.
             <br><br> Sau đó, cô được chọn làm đại diện của Việt Nam tham gia cuộc thi Nữ hoàng Du lịch Quốc tế 2011 và xuất sắc ghi tên vào Top 20. Thành công trên các đấu trường nhan sắc nhưng ít ai biết gia đình của Á hoàng Thúy Ngân khá khó khăn. Sự nghiệp người mẫu đang phát triển mạnh nhưng Thúy Ngân lại quyết định rẽ hướng sang điện ảnh.
@@ -155,43 +155,36 @@ const actors = [
     id: 5,
     stage_name: "Mạc Can",
     name: "Lê Trung Can",
-    link: "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Can",
   },
   {
     id: 6,
     stage_name: "Vân Trang",
     name: "Nguyễn ngọc Thùy Trang",
-    link: "https://vi.wikipedia.org/wiki/V%C3%A2n_Trang",
   },
   {
     id: 7,
     stage_name: "Thanh Trực",
     name: "Huỳnh Thanh Trực",
-    link: "https://nguoinoitieng.tv/nghe-nghiep/dien-vien/huynh-thanh-truc/bcxa",
   },
   {
     id: 8,
     stage_name: "Việt Anh",
     name: "Nguyễn Lê Việt Anh",
-    link: "https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Anh_(di%E1%BB%85n_vi%C3%AAn)",
   },
   {
     id: 9,
     stage_name: "Hồng Đăng",
     name: "Lê Hồng Đăng",
-    link: "https://vi.wikipedia.org/wiki/H%E1%BB%93ng_%C4%90%C4%83ng_(di%E1%BB%85n_vi%C3%AAn)",
   },
   {
     id: 10,
     stage_name: "NSND Trung Anh",
     name: "Bùi Trung Anh",
-    link: "https://vi.wikipedia.org/wiki/Trung_Anh",
   },
   {
     id: 11,
     stage_name: "NSND Minh Đức",
     name: "Đỗ Thị Đức",
-    link: "https://vi.wikipedia.org/wiki/Minh_%C4%90%E1%BB%A9c_(di%E1%BB%85n_vi%C3%AAn)",
   },
   {
     id: 12,
